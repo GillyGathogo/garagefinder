@@ -9,16 +9,20 @@ class Account extends MY_Controller {
 	public function index(){
 		show_404();
 	}
+ 
 
+    function create(){}
+
+    
 	function view($user_id){
 		
 	}
 
-	function edit(){
+	function edit($user_id){
 		
 	}
 
-	function deactivate(){
+	function deactivate($user_id){
 		
 	}
 
